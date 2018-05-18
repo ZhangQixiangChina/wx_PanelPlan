@@ -1,0 +1,45 @@
+/* pages/cal/cal.wxss */
+
+.root {
+    padding: 40rpx 5% 40rpx 5%;
+}
+
+.linear-h {
+    margin-top: 40rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+text {
+    width: 20%;
+    text-align: right;
+    font-size: 32rpx;
+}
+
+input {
+    width: 70%;
+    padding: 10rpx;
+    margin-left: 30rpx;
+    border-bottom: 1px solid #999;
+}
+
+slider {
+    margin-left: 55rpx;
+    width: 70%;
+}
+
+stepper{
+    margin-left: 35rpx;
+}
+
+.cal {
+    margin-top: 40rpx;
+    height: 80rpx;
+    font-size: 35rpx;
+}
+
+.linear-h.result {
+    width: 100%;
+    margin-top: 60rpx;
+}

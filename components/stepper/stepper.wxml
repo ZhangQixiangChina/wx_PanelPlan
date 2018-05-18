@@ -1,0 +1,5 @@
+<view class='root'>
+    <view class='operator minus {{step<=min?"disable":""}}' bindtap='stepMinus'> - </view>
+    <view class='step'>{{step}}</view>
+    <view class='operator plus {{step>=max?"disable":""}}' bindtap='stepPlus'> + </view>
+</view>

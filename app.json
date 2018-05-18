@@ -1,0 +1,9 @@
+{
+    "pages": [
+        "pages/cal/cal"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#454545",
+        "navigationBarTextStyle": "white"
+    }
+}

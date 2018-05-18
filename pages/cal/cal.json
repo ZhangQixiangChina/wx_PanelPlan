@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "布板计算",
+    "usingComponents": {
+        "stepper": "/components/stepper/stepper"
+    }
+}

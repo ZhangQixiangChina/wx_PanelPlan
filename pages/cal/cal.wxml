@@ -1,0 +1,32 @@
+<!--pages/cal/cal.wxml-->
+<view class='root'>
+    <view class='linear-h'>
+        <text>总宽:</text>
+        <input class='input' type='digit' bindblur='getTotalWidth' value='{{totalWidth}}' />
+    </view>
+
+    <view class='linear-h'>
+        <text>边板宽:</text>
+        <input class='input' type='digit' bindblur='getSideWidth' value='{{sideWidth}}' />
+    </view>
+
+    <view class='linear-h'>
+        <text>边板数:</text>
+        <stepper min="0" max="4" step-size="2" step="{{sideNum}}" bindchange="onSideNumChange" />
+    </view>
+
+    <view class='linear-h'>
+        <text>中板宽:</text>
+        <input class='input' type='digit' bindblur='getMidWidth' value='{{midWidth}}' />
+    </view>
+
+    <view class='linear-h'>
+        <text>中板数:</text>
+        <slider min='2' max='15' step='1' show-value='true' bindchanging='onMidNumChange' value='{{midNum}}' />
+    </view>
+
+    <view class='linear-h result'>
+        现浇段: {{result}}
+    </view>
+
+</view>
